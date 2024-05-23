@@ -37,6 +37,8 @@ For the lines with missing collateral values, use default LTV = 0.45
 
 Dataset shape: 11 columns; 5960 rows
 
+The raw data set is in the project’s Excel file. 
+
 ## 3. Analysis steps
 The project is presented in an uploaded Excel file. The file contains an overview of the project in the first tab.
 
