@@ -40,15 +40,15 @@ Dataset shape: 11 columns; 5960 rows
 The raw data set is in the project’s Excel file. 
 
 ## 3. Analysis steps
-The project is presented in an uploaded Excel file. The file contains an overview of the project in the first tab.
+The project is presented in an uploaded [Excel file](https://github.com/PatrycjaDanilczuk/Credit-risk-RWA-and-capital-requirement-IRB-and-Standardised-approach-for-mortgage-portfolio/blob/main/Credit%20Risk%20analysis%20project.xlsx). The file contains an overview of the project in the first tab.
 
 The project overview includes information about: steps taken, description of each step, details and insights, link to the tab or file with details for that step.
 
 Suggested approach to review the project: go to the Project Overview tab, review each step, if necessary go to the tab/file with details for that step (you can use provided links).
 
-Logistic regression, as part of this project, has been prepared in Python and is provided in the uploaded Jupyter Notebook.
+Logistic regression, as part of this project, has been prepared in Python and is provided in the uploaded [Jupyter Notebook](https://github.com/PatrycjaDanilczuk/Credit-risk-RWA-and-capital-requirement-IRB-and-Standardised-approach-for-mortgage-portfolio/blob/main/Logistic%20regression%20for%20Credit%20Risk%20project.ipynb)
 
-Additionally, separate presentation has been prepared and uploaded in the PDF file, to present the results of the analysis to the business.
+Additionally, separate presentation has been prepared and uploaded in the [PDF file](https://github.com/PatrycjaDanilczuk/Credit-risk-RWA-and-capital-requirement-IRB-and-Standardised-approach-for-mortgage-portfolio/blob/main/Presentation%20for%20business_Credit%20Risk%20project.pdf), to present the results of the analysis to the business.
 
 Analysis steps overview:
 
