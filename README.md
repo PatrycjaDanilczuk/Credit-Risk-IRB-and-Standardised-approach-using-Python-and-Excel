@@ -5,52 +5,33 @@
 Calculate Risk Weighted Assets and capital requirement for the bank's residential mortgage portfolio, under both: standardized and IRB approach and compare the results.
 
 ## 2. Data set description
-Mortgage_default dataset, which contains loans with a status indicator: defaulted(bad) or non-defaulted.
+Use Mortgage_default dataset, which contains loans with a status indicator: defaulted(bad) or non-defaulted.
 
-Description of data columns:
+Dataset shape: 11 columns; 5960 rows, uploaded in Excel file.
 
-•	BAD: 1 = applicant defaulted on loan or seriously delinquent; 0 = applicant paid loan
+**Variables description:**
 
-•	MORTDUE: Amount due on existing mortgage
-
-•	VALUE: Value of current property
-
-•	JOB: Occupational categories
-
-•	YOJ: Years at present job
-
-•	DEROG: Number of major derogatory reports
-
-•	DELINQ: Number of delinquent credit lines
-
-•	CLAGE: Age of oldest credit line in months
-
-•	NINQ: Number of recent credit inquiries
-
-•	CLNO: Number of credit lines
-
-•	DEBTINC: Debt-to-income ratio
+| Name | Description |
+|-----|------|
+| BAD | 1 = applicant defaulted on loan or seriously delinquent; 0 = applicant paid loan|
+| MORTDUE | Amount due on existing mortgage |
+| VALUE | Value of current property |
+|JOB | Occupational categories |
+| YOJ | Years at present job |
+| DEROG | Number of major derogatory reports |
+| DELINQ | Number of delinquent credit lines |
+| CLAGE | Age of oldest credit line in months |
+| NINQ | Number of recent credit inquiries |
+| CLNO | Number of credit lines |
+| DEBTINC | Debt-to-income ratio |
 
 All given loans in the dataset are mortgage loans
 
 For the lines with missing collateral values, use default LTV = 0.45
 
-Dataset shape: 11 columns; 5960 rows
-
 The raw data set is in the project’s Excel file. 
 
-## 3. Analysis steps
-The project is presented in an uploaded [Excel file](https://github.com/PatrycjaDanilczuk/Credit-risk-RWA-and-capital-requirement-IRB-and-Standardised-approach-for-mortgage-portfolio/blob/main/Credit%20Risk%20analysis%20project.xlsx). The file contains an overview of the project in the first tab.
-
-The project overview includes information about: steps taken, description of each step, details and insights, link to the tab or file with details for that step.
-
-Suggested approach to review the project: go to the Project Overview tab, review each step, if necessary go to the tab/file with details for that step (you can use provided links).
-
-Logistic regression, as part of this project, has been prepared in Python and is provided in the uploaded [Jupyter Notebook](https://github.com/PatrycjaDanilczuk/Credit-risk-RWA-and-capital-requirement-IRB-and-Standardised-approach-for-mortgage-portfolio/blob/main/Logistic%20regression%20for%20Credit%20Risk%20project.ipynb)
-
-Additionally, separate presentation has been prepared and uploaded in the [PDF file](https://github.com/PatrycjaDanilczuk/Credit-risk-RWA-and-capital-requirement-IRB-and-Standardised-approach-for-mortgage-portfolio/blob/main/Presentation%20for%20business_Credit%20Risk%20project.pdf), to present the results of the analysis to the business.
-
-Analysis steps overview:
+## 3. Analysis steps overview
 
 1.	Data evaluation
 2.	Recognizing columns for RWA and capital requirement calculation under Standardized approach
@@ -66,4 +47,14 @@ Analysis steps overview:
 12.	Internal definition of exposures in default
 13.	Summary and insights
 14.	Preparing presentation of analysis results
+
+## 4. Access to the project
+
+The project is presented in an uploaded [Excel file](https://github.com/PatrycjaDanilczuk/Credit-risk-RWA-and-capital-requirement-IRB-and-Standardised-approach-for-mortgage-portfolio/blob/main/Credit%20Risk%20analysis%20project.xlsx). The file contains an overview of the project in the first tab. The project overview includes information about: steps taken, description of each step, details and insights, link to the tab or file with details for that step.
+
+Suggested approach to review the project: go to the Project Overview tab, review each step, if necessary go to the tab/file with details for that step (you can use provided links).
+
+Logistic regression, as part of this project, has been prepared in Python and is provided in the uploaded [Jupyter Notebook](https://github.com/PatrycjaDanilczuk/Credit-risk-RWA-and-capital-requirement-IRB-and-Standardised-approach-for-mortgage-portfolio/blob/main/Logistic%20regression%20for%20Credit%20Risk%20project.ipynb)
+
+Additionally, separate presentation has been prepared and uploaded in the [PDF file](https://github.com/PatrycjaDanilczuk/Credit-risk-RWA-and-capital-requirement-IRB-and-Standardised-approach-for-mortgage-portfolio/blob/main/Presentation%20for%20business_Credit%20Risk%20project.pdf), to present the results of the analysis to the business.
 
