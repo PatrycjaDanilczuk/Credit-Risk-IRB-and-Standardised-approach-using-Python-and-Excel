@@ -1,6 +1,7 @@
-# Risk Weighted Assets and Capital Requirement for bank's mortgage portfolio under IRB and Standardized approach
+### Risk Weighted Assets and Capital Requirement for bank's mortgage portfolio under IRB and Standardized approach
 
 # Project overview
+
 ## 1. Defining business problem
 Calculate Risk Weighted Assets and capital requirement for the bank's residential mortgage portfolio, under both: standardized and IRB approach and compare the results.
 
